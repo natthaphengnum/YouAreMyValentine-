@@ -47,7 +47,7 @@
         .record {
             width: 100%;
             height: 100%;
-            background: url('https://cdn.pixabay.com/photo/2020/04/16/21/21/vinyl-5054260_1280.png') no-repeat center;
+            background: url('https://s.isanook.com/ca/0/ud/280/1401475/105584766_3260307764032815_54.jpg?ip/crop/w1200h700/q80/webp') no-repeat center;
             background-size: cover;
             border-radius: 50%;
             animation: spin 4s linear infinite;
