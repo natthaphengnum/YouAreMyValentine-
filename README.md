@@ -1,5 +1,4 @@
 # YouAreMyValentine-
-<!DOCTYPE html>
 <html lang="th">
 <head>
     <meta charset="UTF-8">
@@ -89,6 +88,14 @@
             font-size: 24px;
             animation: floatUp 4s linear infinite;
         }
+        
+        /* เอฟเฟกต์หัวใจลอย */
+        .star {
+            position: absolute;
+            color: yellow;
+            font-size: 24px;
+            animation: floatUp 4s linear infinite;
+        }
         @keyframes floatUp {
             0% {
                 transform: translateY(0);
@@ -124,17 +131,17 @@
 </head>
 <body>
 
-    <h1>สุขสันต์วันวาเลนไทน์นะที่รัก! 💘</h1>
-    <button onclick="showSurprise()">💌 กดเพื่อเซอร์ไพรส์</button>
+    <h1>𓄹 ❀˖*💘𝓗𝓪𝓹𝓹𝔂 𝓥𝓪𝓵𝓮𝓷𝓽𝓲𝓷𝓮 𝓓𝓪𝔂💘˚⋆ ࿐・ </h1>
+    <button onclick="showSurprise()"> ⭐ </button>
 
-    <div id="message" class="hidden">ฉันรักเธอนะ! ❤️</div>
+    <div id="message" class="hidden"> เค้ารักคุณนะต้าว เป็นอีกวันพิเศษที่เราได้มีกันและกัน ขอบคุณคุณสำหรับทุกๆ เรื่องเลยนะ อยู่เปงไอ้ตูดของเค้าแบบนี้ไปนานๆนะ เค้ารักคุณ! </div>
 
     <div class="record-container">
         <div class="record">
             <img src="https://yt3.googleusercontent.com/ytc/AIdro_mOnqMkA1pfhFtKyvH7aMlFsx5OaOeQH5RbGykb7w=s900-c-k-c0x00ffffff-no-rj" alt="Album Cover">
         </div>
     </div>
-    <p class="song-title">💖 เพลง: The Loveliest Time - Carly Rae Jepsen 💖</p>
+    <p class="song-title">💖 เพลง: ดาวหางฮัลเลย์ - fellow fellow 💖</p>
 
     <div id="player"></div>
 
@@ -180,6 +187,21 @@
                 heart.style.animationDuration = (Math.random() * 3 + 2) + "s";
                 document.body.appendChild(heart);
                 setTimeout(() => heart.remove(), 4000);
+            }
+        }
+
+        // หัวใจลอยขึ้น
+        function createFloatingStars() {
+            for (let i = 0; i < 10; i++) {
+                let star = document.createElement("div");
+                heart.innerHTML = "⭐";
+                heart.classList.add("star");
+                heart.style.left = Math.random() * 100 + "vw";
+                heart.style.top = "100vh";
+                heart.style.position = "absolute";
+                heart.style.animationDuration = (Math.random() * 3 + 2) + "s";
+                document.body.appendChild(star);
+                setTimeout(() => star.remove(), 4000);
             }
         }
 
