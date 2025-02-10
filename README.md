@@ -50,7 +50,7 @@
             background: url('https://s.isanook.com/ca/0/ud/280/1401475/105584766_3260307764032815_54.jpg?ip/crop/w1200h700/q80/webp') no-repeat center;
             background-size: cover;
             border-radius: 50%;
-            animation: spin 4s linear infinite;
+            animation: spin 6s linear infinite;
         }
         .record img {
             position: absolute;
