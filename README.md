@@ -33,7 +33,7 @@
             border-radius: 8px;
             margin-top: 20px;
         }
-        button:hover {
+       
             
         }
 
