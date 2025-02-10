@@ -167,7 +167,7 @@
             <img src="https://yt3.googleusercontent.com/ytc/AIdro_mOnqMkA1pfhFtKyvH7aMlFsx5OaOeQH5RbGykb7w=s900-c-k-c0x00ffffff-no-rj" alt="Album Cover">
         </div>
     </div>
-    <p class="song-title">💖เพลง: ดาวหางฮัลเลย์ - fellow fellow💖</p>
+    <p class="song-title">💖ดาวหางฮัลเลย์ - fellow fellow💖</p>
 
     <div id="player"></div>
 
