@@ -1,6 +1,7 @@
 # YouAreMyValentine-
 <html lang="th">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>💖 Surprise for You 💖</title>
@@ -81,6 +82,7 @@
             color: white;
             margin-top: 20px;
             display: none;
+            font-family: 'Mali', cursive;
         }
 
         /* เอฟเฟกต์หัวใจลอย */
