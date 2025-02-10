@@ -69,7 +69,7 @@
             font-size: 18px;
             font-weight: bold;
             margin-top: 10px;
-            color: white;
+            color: black;
         }
 
         /* ข้อความเซอร์ไพรส์ */
