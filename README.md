@@ -34,7 +34,7 @@
             margin-top: 20px;
         }
         button:hover {
-            background-color: #e91e63;
+            
         }
 
         /* แผ่นเสียงหมุน */
@@ -69,7 +69,7 @@
             font-size: 18px;
             font-weight: bold;
             margin-top: 10px;
-            color: black;
+            color: white;
         }
 
         /* ข้อความเซอร์ไพรส์ */
