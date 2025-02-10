@@ -82,7 +82,7 @@
             color: white;
             margin-top: 20px;
             display: none;
-            font-family: 'Mali', cursive;
+            
         }
 
         /* เอฟเฟกต์หัวใจลอย */
