@@ -139,6 +139,27 @@
     <button onclick="showSurprise()"> ⭐ </button>
 
     <div id="message" class="hidden"> เค้ารักคุณนะต้าว เป็นอีกวันพิเศษที่เราได้มีกันและกัน ขอบคุณคุณสำหรับทุกๆ เรื่องเลยนะ อยู่เปงไอ้ตูดของเค้าแบบนี้ไปนานๆนะ เค้ารักคุณ! </div>
+    <script>
+        function showSurprise() {
+            document.getElementById('message').style.display = "block";
+            startFloatingHearts(); // เริ่มเอฟเฟกต์หัวใจ
+        }
+
+        function startFloatingHearts() {
+            setInterval(() => {
+                let heart = document.createElement("div");
+                heart.classList.add("heart");
+                heart.innerHTML = "💖"; // อีโมจิหัวใจ
+                heart.style.left = Math.random() * 100 + "vw"; // สุ่มตำแหน่งแนวนอน
+                heart.style.top = "100vh"; // เริ่มจากด้านล่าง
+                heart.style.fontSize = Math.random() * 20 + 20 + "px"; // สุ่มขนาดหัวใจ
+                document.body.appendChild(heart);
+
+                // ลบหัวใจเมื่อออกจากจอ
+                setTimeout(() => heart.remove(), 3000);
+            }, 500); // สร้างหัวใจทุก 0.5 วินาที
+        }
+    </script>
 
     <div class="record-container">
         <div class="record">
