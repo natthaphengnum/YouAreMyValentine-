@@ -24,7 +24,7 @@
             display: none;
         }
         button {
-            background-color: #ff4081;
+            background-color: transparent;
             color: white;
             border: none;
             padding: 15px 20px;
