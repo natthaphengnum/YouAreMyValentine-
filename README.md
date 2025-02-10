@@ -61,6 +61,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            background-color: black;
         }
         @keyframes spin {
             from { transform: rotate(0deg); }
